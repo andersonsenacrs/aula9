@@ -57,4 +57,5 @@ valor.push(7)
 console.log(valor) // [1, 2, 3, 4, 5, 6,]
 valor.push(1, 2, 3, 4, 5, 6,)
 console.log(valor)
-
+valor.splice (3, 2)
+console.log(valor.length)
