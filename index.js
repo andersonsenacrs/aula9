@@ -59,3 +59,33 @@ valor.push(1, 2, 3, 4, 5, 6,)
 console.log(valor)
 valor.splice (3, 2)
 console.log(valor.length)
+
+// aula 10
+
+
+
+// 1. Faça um programa que pergunte ao usuário seu nome e seu e-mail. Em seguida imprima//
+
+const nome = anderson;
+const email = anderson.hotmail.com;
+const frase = " O e-mail " + email + "foi cadastrado com sucesso. Seja bem-vindo(a)" + nome
+
+// 2. Faça um programa que contenha um array com 5 das suas comidas preferidas, armazenado em uma variável. Em seguida, siga os passos:
+
+// a) Imprima no console o array completo
+
+//b) Imprima no console a mensagem "Essas são as minhas comidas preferidas: ", seguida por cada uma das comidas, uma embaixo da outra.
+
+//c) Aqui vai um desafio: pergunte ao usuário uma comida preferida. Troque a segunda comida da sua lista pela inserida pelo usuário. Imprima no console a nova lista
+
+const listaDecomidas = ["churrasco", "lasanha", "Peixe frito", "frango", "bife"]
+const comidas = Number(prompt("Digite um número de 0 a 4"))
+console.log(listaDecomidas[comidas])
+
+console.log("Essas são minhas comidas preferidas")
+console.log(listaDecomidas[0]);
+console.log(listaDecomidas[1]);
+console.log(listaDecomidas[2]);
+console.log(listaDecomidas[3]);
+console.log(listaDecomidas[4]);
+
